@@ -5,8 +5,9 @@ $mens-card-color: #2BD9AF;
 $price-color: #0E42FD;
 
 body {
-  background-color: $primary-color;
+  background-color: #e1effc; /* Set background color */
 }
+
 
 @mixin multiLineEllipsis($lineCount: 1) {
     overflow: hidden;
