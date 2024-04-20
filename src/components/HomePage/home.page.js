@@ -29,16 +29,14 @@ const Homepage = () => {
         <Fragment>
           <h4 className="title-text-align">Categories</h4>
           <div className="card-container">
-            <Fragment>
-              <Card
-                className="half-width-card mens-bg-color"
-                onClick={() => handleClick("mens")}
-              >
-                <CardContent className="centered-card-content">
-                  Men's Clothing
-                </CardContent>
-              </Card>
-            </Fragment>
+            <Card
+              className="half-width-card mens-bg-color"
+              onClick={() => handleClick("mens")}
+            >
+              <CardContent className="centered-card-content">
+                Men's Clothing
+              </CardContent>
+            </Card>
             <div className="card-spacing"></div> {/* Space between cards */}
             <Card
               className="half-width-card womens-bg-color"
